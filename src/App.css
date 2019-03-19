@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  background-color:#226fbe;
+  border:0;
+  padding:0.75em 1.25em;
+  color:#fff;
+  border-radius:40px;
+  box-shadow: 0 5px #0d4b8a;
+  font-family:inherit;
+  font-size:0.8em;
+  text-transform:uppercase;
+  font-weight:500;
+  letter-spacing:1px;
+  outline:0;
+  cursor: pointer;
+  transition:0.15s ease;
+  position: relative;
+  top:0;
+}
+
+button:active {
+  top:4px;
+  box-shadow: 0 1px #0d4b8a;
+}
+
+header { padding:2em 0; }
+
+h1 {
+  font-weight:normal;
+  font-size:2rem;
+}
+p { margin:1em 0 0; }
